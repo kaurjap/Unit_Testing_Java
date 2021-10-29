@@ -1,8 +1,5 @@
-import static org.junit.jupiter.api.Assertions;
-
-import java.beans.Transient;
-
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.*;
+import org.junit.Test;
 
 /**
  * @class TriangleTest
@@ -13,6 +10,10 @@ import org.junit.jupiter.api.Test;
 public class TriangleTest {
     
     private Triangle t;
+
+    public TriangleTest () {
+        this.t = new Triangle ();
+    }
 
     @Test
     public void testTriangle1 () {
@@ -26,6 +27,7 @@ public class TriangleTest {
 
     @Test
     public void testTriangle3 () {
+        
         assertEquals ("Equilateral", t.isTriangle3 (5, 5, 5));
     }
 

@@ -20,6 +20,7 @@ public class Triangle {
         // do nothing
     } // end constructor
 
+
     /**
      * 
      * First implementation of the isTriangle () method logic as specified in the textbook
@@ -131,6 +132,7 @@ public class Triangle {
         return result;
     } // end method isTriangle2 () 
 
+
     /**
      * Third implementation of the isTriangle () method logic as specified in the textbook
      * 
@@ -155,15 +157,18 @@ public class Triangle {
         c3 = (1 <= c) && (c <= 300);
 
         if (!c1) {
-            result = "Value of a is not in the range of permitted values.";
+            System.out.println ("Value of a is not in the range of permitted values.");
+            result = "InvalidRange";
         } // end if
         
         if (!c2) {
-            result = "Value of b is not in the range of permitted values.";
+            System.out.println ("Value of a is not in the range of permitted values.");
+            result = "InvalidRange";
         } // end if
 
         if (!c3) {
-            result = "Value of c is not in the range of permitted values.";
+            System.out.println ("Value of a is not in the range of permitted values.");
+            result = "InvalidRange";
         } // end if
 
         // only continue if valid values for the sides 
@@ -190,7 +195,6 @@ public class Triangle {
                 result = "NotATriangle";
             } // end if-else
         } // end if
-
         return result;
     } // end method isTriangle3 ()
 
