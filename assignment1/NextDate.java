@@ -11,6 +11,8 @@
  */
 //==============================================================================
 
+package assignment1;
+
 public class NextDate {
     
     public NextDate () {

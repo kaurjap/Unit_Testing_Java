@@ -1,6 +1,8 @@
 import static org.junit.Assert.*;
 import org.junit.Test;
 
+import assignment1.Triangle;
+
 /**
  * @class TriangleTest
  * 

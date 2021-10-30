@@ -11,8 +11,9 @@
  */
 //==============================================================================
 
-import java.util.Scanner;
+package assignment1;
 
+import java.util.Scanner;
 
 public class Triangle {
 
