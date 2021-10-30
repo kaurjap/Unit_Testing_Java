@@ -11,20 +11,20 @@ Please follow the following steps to run the tests.
 #### Step 1: Compile the source code
 
 - From the base directory, type:
-'''console
-  javac assignment1/Triangle.java
-  javac assignment1/NextDate.java
-'''
+```console
+    javac assignment1/Triangle.java
+    javac assignment1/NextDate.java
+```
 
 #### Step 2: Compile and run the test classes
 
 - In order to compile the test classes, the classpath needs to be configured. Hence, being in the base directory, please type the following to compile both the test files.
-'''console
-  java -cp .:junit-4.13.2.jar TriangleTest.java
-  java -cp .:junit-4.13.2.jar NextDateTest.java
-'''
+```console
+    java -cp .:junit-4.13.2.jar TriangleTest.java
+    java -cp .:junit-4.13.2.jar NextDateTest.java
+```
 - Once the test files/classes are compiled, run them in a similar way using the following specifications in the command.
-'''console
+```console
   java -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore TriangleTest
   java -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore NextDateTest
-'''
+```
