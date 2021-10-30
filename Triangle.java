@@ -20,7 +20,7 @@ public class Triangle {
         // do nothing
     } // end constructor
 
-
+    
     /**
      * 
      * First implementation of the isTriangle () method logic as specified in the textbook
