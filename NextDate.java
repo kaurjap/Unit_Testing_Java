@@ -11,8 +11,6 @@
  */
 //==============================================================================
 
-import java.util.*;
-
 public class NextDate {
     
     public NextDate () {
