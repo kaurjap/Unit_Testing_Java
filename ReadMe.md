@@ -1,4 +1,4 @@
-## Overview
+## Description
 
 There are two testing classes created, TriangleTest.java and NextDateTest.java, in order to test the three isTriangle () functions and the two nextDate () functions, respectively.
 
@@ -29,6 +29,9 @@ Please follow the following steps to run the tests.
   java -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore NextDateTest
 ```
 
-References:
 
-https://medium.com/@pelensky/java-tdd-with-junit-without-using-an-ide-cd24d38adff
+
+### References
+
+For learning how to use junit via command line to run tests:
+    https://medium.com/@pelensky/java-tdd-with-junit-without-using-an-ide-cd24d38adff
