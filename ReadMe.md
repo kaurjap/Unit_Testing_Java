@@ -28,3 +28,7 @@ Please follow the following steps to run the tests.
   java -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore TriangleTest
   java -cp .:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore NextDateTest
 ```
+
+References:
+
+https://medium.com/@pelensky/java-tdd-with-junit-without-using-an-ide-cd24d38adff
